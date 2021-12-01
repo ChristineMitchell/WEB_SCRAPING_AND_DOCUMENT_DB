@@ -96,7 +96,7 @@ def featured_image(browser):
     return img_url
 
 ##########################################################################################################################################
-# ## Mars Facts - 3 of 4
+# ## Scrape Mars Facts - 3 of 4
 # reference: https://courses.bootcampspot.com/courses/676/pages/10-dot-3-5-scrape-mars-data-mars-facts?module_item_id=190922
 
 def mars_facts(browser):
@@ -116,7 +116,7 @@ def mars_facts(browser):
     return df.to_html(classes="table table-striped")
 
 #########################################################################################################################################
-# ## Hemispheres - 4 of 4
+# ## Scrape Hemispheres - 4 of 4
 # reference: The Challenge
 
 def hemisphere_images(browser):
